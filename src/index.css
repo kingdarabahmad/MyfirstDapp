@@ -1,0 +1,31 @@
+html,#root{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.app{
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+.form{
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  gap:5px;
+}
+.successMsg{
+  font-size: 12px;
+}
+.msg{
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  gap: 4px;
+}
